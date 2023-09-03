@@ -8,7 +8,7 @@ This programming workshop will allow you to discover the basics of Firebase and 
 - Authenticate users with [Firebase Authentication](https://firebase.google.com/docs/auth?hl=fr) ;
  and [FirebaseUI](https://firebase.google.com/docs/auth/web/firebaseui?hl=fr);
 - Sync data using [Cloud Firestore](https://firebase.google.com/docs/firestore);
-- Write [Firebase](https://firebase.google.com/.
+- Write [Firebase](https://firebase.google.com/).
 
 ## What you'll need
 - A browser of your choice, such as Chrome ;
@@ -20,7 +20,11 @@ This programming workshop will allow you to discover the basics of Firebase and 
 1. Noted that in this codelab, you build an app using [stackblitz](http://stackblitz.com/), an online editor that has several Firebase workflows integrated into it. Stackblitz requires no software installation or special StackBlitz account.
 2. Go to [this URL](https://stackblitz.com/edit/firebase-gtk-web-start).
 3. You can modify the file `index.html` as you see fit while leaving the ID and class untouched.
-4. Create and set up a Firebase project
+4. Create a Firebase project
+   - Sign in to [Firebase](https://firebase.google.com/)
+   - In the Firebase console, click Add Project (or Create a project), then name your Firebase project Codelab-for-firebase-web like this
+   - On the Google Analytics screen, click "Don't Enable", because you won't be using Analytics for this app.
+   - If you want to know more about firebase projects, I advise you to read the [documentation](https://firebase.google.com/docs/projects/learn-more?hl=fr) before continuing.
 
 
 ```json
