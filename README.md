@@ -30,7 +30,14 @@ This programming workshop will allow you to discover the basics of Firebase and 
 1. Firebase Authentication and Firebase UI to easily allow your users to sign in to your app.
 To allow users to sign in to the web app, you'll use the Email/Password sign-in method for this codelab:
    - In the left-side panel of the Firebase console, click Build > Authentication. Then click Get Started. You're now in the Authentication dashboard, where you can see signed-up users, configure sign-in providers, and manage settings like this
+   [this] (https://github.com/LouisDSC/Firebase-pour-le_web/blob/main/Img/Create_project.png)
+   [this] (https://github.com/LouisDSC/Firebase-pour-le_web/blob/main/Img/Auth.png)
+   [this] (https://github.com/LouisDSC/Firebase-pour-le_web/blob/main/Img/Mail.png)
    - Select the Sign-in method tab and then click Email/Password from the provider options, toggle the switch to Enable, and then click Save.
+   [this] (https://github.com/LouisDSC/Firebase-pour-le_web/blob/main/Img/Mail.png)
+
+2. Set up Cloud Firestore
+
 
 
 ```json
