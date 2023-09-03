@@ -8,18 +8,20 @@ This programming workshop will allow you to discover the basics of Firebase and 
 - Authenticate users with [Firebase Authentication](https://firebase.google.com/docs/auth?hl=fr) ;
  and [FirebaseUI](https://firebase.google.com/docs/auth/web/firebaseui?hl=fr);
 - Sync data using [Cloud Firestore](https://firebase.google.com/docs/firestore);
-- Write [Firebase](https://firebase.google.com/);
+- Write [Firebase](https://firebase.google.com/.
 
+## What you'll need
+- A browser of your choice, such as Chrome ;
+- Access to [stackblitz](http://stackblitz.com/) (no account or sign-in necessary);
+- A Google account, like a gmail account. We recommend the email account that you already use for your GitHub account. This allows you to use advanced features in StackBlitz;
+- The codelab's sample code. See the next step for how to get the code.
 
-## Contexte `mail()`
-La fonction PHP `mail()` envoie généralement via un serveur de messagerie local, généralement dirigé par un `sendmail()` binaire sur les plates-formes Linux, BSD et macOS, cependant, Windows n'inclut généralement pas de serveur de messagerie local ; Le client SMTP intégré de PHPMailer permet l'envoi d'e-mails sur toutes les plates-formes sans avoir besoin d'un serveur de messagerie local. Sachez cependant que la mail()fonction doit être évitée dans la mesure du possible ; il est à la fois plus rapide et plus sûr d'utiliser SMTP vers localhost.
+## Get started now !
+1. Noted that in this codelab, you build an app using [stackblitz](http://stackblitz.com/), an online editor that has several Firebase workflows integrated into it. Stackblitz requires no software installation or special StackBlitz account.
+2. Go to [this URL](https://stackblitz.com/edit/firebase-gtk-web-start).
+3. You can modify the file `index.html` as you see fit while leaving the ID and class untouched.
+4. Create and set up a Firebase project
 
-Si vous n'utilisez pas PHPMailer, il existe de nombreuses autres excellentes bibliothèques que vous devriez consulter avant de lancer la vôtre. Essayez [SwiftMailer](https://swiftmailer.symfony.com/)
-, [Laminas/Mail](https://docs.laminas.dev/laminas-mail/), [ZetaComponents](https://github.com/zetacomponents/Mail) etc.
-
-## Installation
-PHPMailer est disponible sur [Packagist](https://packagist.org/packages/phpmailer/phpmailer). 
-La méthode recommandée pour installer PHPMailer est d'ajouter ce bout de code dans votre fichier `composer.json` :
 
 ```json
 "phpmailer/phpmailer": "^6.5"
