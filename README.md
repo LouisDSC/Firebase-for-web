@@ -42,6 +42,33 @@ The web app uses Cloud Firestore to save chat messages and receive new chat mess
    Caution: In the first stages of this codelab, you use test mode. Later in the codelab, though, you'll write Firebase Security Rules to secure your database.
    For your apps, especially production apps, it's very important that you secure your database using security rules. Learn more about security rules in the Firebase documentation.
    ```
+   - Select the location for your database (you can just use the default). Note, though, that this location can't be changed later. And then done.
+
+3.  Add and configure Firebase
+Now that you have your Firebase project created and some services enabled, you need to tell the code that you want to use Firebase, as well as which Firebase project to use.
+
+For your app to use Firebase, you need to add the Firebase libraries to the app. There are multiple ways to do this, as described in the  [Firebase documentation](https://firebase.google.com/docs/web/setup). For example, you can add the libraries from Google's CDN, or you can install them locally using npm and then package them in your app if you're using Browserify.
+
+To build this app, you use the Firebase Authentication, FirebaseUI, and Cloud Firestore libraries. For this codelab, the following import statements are already included at the top of the index.js file, and we'll be importing more methods from each Firebase library as we go:
+```JS
+// Import stylesheets
+import './style.css';
+
+// Firebase App (the core Firebase SDK) is always required
+import { initializeApp } from 'firebase/app';
+
+// Add the Firebase products and methods that you want to use
+import {} from 'firebase/auth';
+import {} from 'firebase/firestore';
+
+import * as firebaseui from 'firebaseui';
+```
+
+4. Add a Firebase web app to your Firebase project
+- Back in the Firebase console, navigate to your project's overview page by clicking Project Overview in the top left.
+- In the center of your project's overview page, click the web icon web app icon </> to create a new Firebase web app.
+- Register the app with the nickname Web App.
+- For this codelab, do NOT check the box next to Also set up Firebase Hosting for this app. You'll use StackBlitz's preview pane for now.
 
 
 
