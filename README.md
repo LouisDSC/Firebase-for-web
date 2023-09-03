@@ -22,7 +22,7 @@ This programming workshop will allow you to discover the basics of Firebase and 
 3. You can modify the file `index.html` as you see fit while leaving the ID and class untouched.
 4. Create a Firebase project
    - Sign in to [Firebase](https://firebase.google.com/)
-   - In the Firebase console, click Add Project (or Create a project), then name your Firebase project  Codelab-for-firebase-web like [this] (https://github.com/LouisDSC/Firebase-pour-le_web/blob/main/Img/Create_project.png)
+   - In the Firebase console, click Add Project (or Create a project), then name your Firebase project  Codelab-for-firebase-web like ![this] (https://github.com/LouisDSC/Firebase-pour-le_web/blob/main/Img/Create_project.png)
    - On the Google Analytics screen, click "Don't Enable", because you won't be using Analytics for this app.
    - If you want to know more about firebase projects, I advise you to read the [documentation](https://firebase.google.com/docs/projects/learn-more?hl=fr) before continuing.
 
