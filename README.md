@@ -32,7 +32,16 @@ To allow users to sign in to the web app, you'll use the Email/Password sign-in 
    - In the left-side panel of the Firebase console, click Build > Authentication. Then click Get Started. You're now in the Authentication dashboard, where you can see signed-up users, configure sign-in providers, and manage settings.
    - Select the Sign-in method tab and then click Email/Password from the provider options, toggle the switch to Enable, and then click Save.
 
-2. # Set up Cloud Firestore
+2. Set up Cloud Firestore
+The web app uses Cloud Firestore to save chat messages and receive new chat messages. 
+   - In the left-side panel of the Firebase console, click Build > Firestore Database. Then click Create database.
+   - Click Create database.
+   - Select the Start in test mode option. Read the disclaimer about the security rules. Test mode ensures that you can freely write to the database during development. Click Next.
+
+   ```
+   Caution: In the first stages of this codelab, you use test mode. Later in the codelab, though, you'll write Firebase Security Rules to secure your database.
+   For your apps, especially production apps, it's very important that you secure your database using security rules. Learn more about security rules in the Firebase documentation.
+   ```
 
 
 
