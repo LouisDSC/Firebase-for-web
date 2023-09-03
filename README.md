@@ -69,6 +69,19 @@ import * as firebaseui from 'firebaseui';
 - In the center of your project's overview page, click the web icon web app icon </> to create a new Firebase web app.
 - Register the app with the nickname Web App.
 - For this codelab, do NOT check the box next to Also set up Firebase Hosting for this app. You'll use StackBlitz's preview pane for now.
+- Click Register app.
+- Copy the [Firebase configuration object](https://firebase.google.com/docs/projects/learn-more#config-files-objects) to your clipboard likee this :
+```JS
+const firebaseConfig = {
+  apiKey: "AIzaSyACNHNPpKGV0Aa3l37-3EF6v2gax9TyWnM",
+  authDomain: "codelab-for-firebase-web.firebaseapp.com",
+  projectId: "codelab-for-firebase-web",
+  storageBucket: "codelab-for-firebase-web.appspot.com",
+  messagingSenderId: "1049708353117",
+  appId: "1:1049708353117:web:c4ed3ad688e64975b91fb4"
+};
+```
+
 
 
 
