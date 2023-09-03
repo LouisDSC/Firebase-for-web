@@ -1,21 +1,15 @@
-![PHPMailer](https://github.com/LouisDSC/Firebase-pour-le_web/blob/main/Img.png)
+![Firebase](https://github.com/LouisDSC/Firebase-pour-le_web/blob/main/Img.png)
 
-# PHPMailer | Création et transfert d'e-mail pour vos formulaire PHP
-## Caractéristiques
-- Probablement le code le plus populaire au monde pour envoyer des e-mails depuis PHP !
-- Utilisé par de nombreux projets open source : WordPress, Drupal, 1CRM, SugarCRM, Yii, Joomla ! et beaucoup plus
-- Prise en charge SMTP intégrée - envoi sans serveur de messagerie local
-- Envoyez des e-mails avec plusieurs adresses À, CC, CCI et Répondre à
-- E-mails en plusieurs parties/alternatifs pour les clients de messagerie qui ne lisent pas les e-mails HTML
-- Ajouter des pièces jointes, y compris en ligne
-- Prise en charge du contenu UTF-8 et des encodages 8 bits, base64, binaires et imprimables entre guillemets
-- Authentification SMTP avec les mécanismes LOGIN, PLAIN, CRAM-MD5 et XOAUTH2 sur les transports SMTPS et SMTP+STARTTLS
-- Valide automatiquement les adresses e-mail
-- Protège contre les attaques par injection d'en-tête
-- Messages d'erreur dans plus de 50 langues !
-- Prise en charge de la signature DKIM et S/MIME
-- Compatible avec PHP 5.5 et versions ultérieures, y compris PHP 8.1
-- Espace de noms pour éviter les conflits de noms
+# Firebase for Web | FirebaseUI FirebaseAuth Firestore
+## Features
+This programming workshop will allow you to discover the basics of Firebase and use them to create interactive web applications.
+
+## What you will learn
+- Authenticate users with [Firebase Authentication](https://firebase.google.com/docs/auth?hl=fr) ;
+ and [FirebaseUI](https://firebase.google.com/docs/auth/web/firebaseui?hl=fr);
+- Sync data using [Cloud Firestore](https://firebase.google.com/docs/firestore);
+- Write [Firebase](https://firebase.google.com/);
+
 
 ## Contexte `mail()`
 La fonction PHP `mail()` envoie généralement via un serveur de messagerie local, généralement dirigé par un `sendmail()` binaire sur les plates-formes Linux, BSD et macOS, cependant, Windows n'inclut généralement pas de serveur de messagerie local ; Le client SMTP intégré de PHPMailer permet l'envoi d'e-mails sur toutes les plates-formes sans avoir besoin d'un serveur de messagerie local. Sachez cependant que la mail()fonction doit être évitée dans la mesure du possible ; il est à la fois plus rapide et plus sûr d'utiliser SMTP vers localhost.
